@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/Desktop/DS%2BML%2BDL/ineuron/MLOps%20Projects/diamond_price_prediction/mlruns/0/93851ccf64974789b4e813d77761dab1/artifacts
+end_time: 1708452937614
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93851ccf64974789b4e813d77761dab1
+run_name: sassy-hen-256
+run_uuid: 93851ccf64974789b4e813d77761dab1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708452929925
+status: 3
+tags: []
+user_id: User

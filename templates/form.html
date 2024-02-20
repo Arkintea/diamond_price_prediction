@@ -1,0 +1,112 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form-v9 by Colorlib</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Font-->
+    <link rel="stylesheet" type="text/css" href="static/css2/nunito-font.css">
+    <!-- Main Style Css -->
+    <link rel="stylesheet" href="static/css2/style.css"/>
+</head>
+
+
+<body class="form-v9">
+	<div class="page-content">
+		<div class="form-v9-content" style="background-image: url('static/assets/img/form-v9.jpg')">
+			<form class="form-detail" action="{{url_for('predict_datapoint')}}" method="post">
+				<h2>Prediction</h2>
+
+                <div class="form-row-total">
+
+					<div class="form-row">
+                        <label for="carat">Carat:</label>
+                        <input type="text" id="carat" name="carat" placeholder="Enter carat value (float)">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="depth">Depth:</label>
+                        <input type="text" id="depth" name="depth" placeholder="Enter depth value (float)">
+                    </div>
+                </div>
+                <br>
+
+                <div class="form-row-total">
+                    <div class="form-row">  
+                        <label for="table">Table:</label>
+                        <input type="text" id="table" name="table" placeholder="Enter table value (float)">
+                    </div>
+                    
+                    <div class="form-row">
+                        <label for="x">x:</label>
+                        <input type="text" id="x" name="x" placeholder="Enter x value (float)">
+                    </div>
+                </div>
+                <br>
+
+                <div class="form-row-total">
+                    <div class="form-row">
+                        <label for="y">y:</label>
+                        <input type="text" id="y" name="y" placeholder="Enter y value (float)">
+                    </div>
+                  
+                    <div class="form-row">
+                        <label for="z">z:</label>
+                        <input type="text" id="z" name="z" placeholder="Enter z value (float)">
+                    </div>
+                </div>
+                <br>
+
+                <div class="form-row-total">
+                    <div class="form-row">
+                        <label for="cut">Cut:</label>
+                        <select id="cut" name="cut">
+                          <option value="Fair">Fair</option>
+                          <option value="Good">Good</option>
+                          <option value="Very Good">Very Good</option>
+                          <option value="Premium">Premium</option>
+                          <option value="Ideal">Ideal</option>
+                        </select>
+                      </div>
+                        
+                      <div class="form-row">
+                        <label for="color">Color:</label>
+                        <select id="color" name="color">
+                          <option value="D">D</option>
+                          <option value="E">E</option>
+                          <option value="F">F</option>
+                          <option value="G">G</option>
+                          <option value="H">H</option>
+                          <option value="I">I</option>
+                          <option value="J">J</option>
+                        </select>
+                      </div>
+                </div>
+                <br>
+
+                <div class="form-row-total">
+                    <div class="form-row">
+                        <label for="clarity">Clarity:</label>
+                        <select id="clarity" name="clarity">
+                          <option value="I1">I1</option>
+                          <option value="SI2">SI2</option>
+                          <option value="SI1">SI1</option>
+                          <option value="VS2">VS2</option>
+                          <option value="VS1">VS1</option>
+                          <option value="VVS2">VVS2</option>
+                          <option value="VVS1">VVS1</option>
+                          <option value="IF">IF</option>
+                        </select>
+                      </div>
+                </div>
+                <br>
+
+
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register" value="Submit">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

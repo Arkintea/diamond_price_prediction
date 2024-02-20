@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/Desktop/DS%2BML%2BDL/ineuron/MLOps%20Projects/diamond_price_prediction/mlruns/0/b108e77a26ca422b9f7d43abe9820d4f/artifacts
+end_time: 1708453667792
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b108e77a26ca422b9f7d43abe9820d4f
+run_name: placid-asp-345
+run_uuid: b108e77a26ca422b9f7d43abe9820d4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708453661465
+status: 3
+tags: []
+user_id: User

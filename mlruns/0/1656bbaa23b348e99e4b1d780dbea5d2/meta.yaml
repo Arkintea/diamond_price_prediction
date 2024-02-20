@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/Desktop/DS%2BML%2BDL/ineuron/MLOps%20Projects/diamond_price_prediction/mlruns/0/1656bbaa23b348e99e4b1d780dbea5d2/artifacts
+end_time: 1708454270684
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1656bbaa23b348e99e4b1d780dbea5d2
+run_name: bedecked-bee-771
+run_uuid: 1656bbaa23b348e99e4b1d780dbea5d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708454263193
+status: 3
+tags: []
+user_id: User
